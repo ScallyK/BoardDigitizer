@@ -1,7 +1,9 @@
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 # Board Digitizer:
 
 Script that uses FastRCNN model to determine if a tile on a chess board is occupied and if so, determine what piece it is. Results are then stored in image, string, and array form.
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Breakdown:
 
@@ -15,15 +17,23 @@ Script that uses FastRCNN model to determine if a tile on a chess board is occup
 
 5) Results of classes.txt are appended to an array named piece_array
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Requirements:
 
-1) See requiremnts.txt
+- GPU and CPU Instances:
+
+    > Everything in requiremnts.txt
 
 - CPU Exclusive Requirements:
 
-    - >= Python 3.11.3
-    - >= Pytorch 2.0 (Includes torch, torchvison, torchaudio)
+     >≥ Python 3.11.3
+     
+     >≥ Pytorch 2.0 (Includes torch, torchvison, torchaudio)
+   
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# GPU/CPU Instances:
 
 2) Code was developed/tested in AWS Sagemaker with a GPU instance:
 
@@ -38,14 +48,14 @@ Script that uses FastRCNN model to determine if a tile on a chess board is occup
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Extras:
 
+- Original code (excepting Board_Digitizer.py) is from sovit-123 on GitHub. 
 
-## Original code (excepting Board_Digitizer.py) is from sovit-123 on GitHub. 
+- See here for details:https://github.com/sovit-123/fasterrcnn-pytorch-training-pipeline
 
-## See here for details:https://github.com/sovit-123/fasterrcnn-pytorch-training-pipeline
+- Edits made to inference.py and requirements.txt to attain proper board evaluation.
 
-## Edits made to inference.py and requirements.txt to attain proper board evaluation.
-
-## Includes binaries from ImageMagick (https://imagemagick.org)
+- Includes binaries from ImageMagick (https://imagemagick.org)
 
 

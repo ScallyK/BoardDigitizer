@@ -1,16 +1,6 @@
-#####################################################################################################
-#####################################################################################################
-#####################################################################################################
-
-
 # Board Digitizer:
 
 Script that uses FastRCNN model to determine if a tile on a chess board is occupied and if so, determine what piece it is. Results are then stored in image, string, and array form.
-
-
-#####################################################################################################
-#####################################################################################################
-#####################################################################################################
 
 
 # Breakdown:
@@ -26,12 +16,6 @@ Script that uses FastRCNN model to determine if a tile on a chess board is occup
 5) Results of classes.txt are appended to an array named piece_array
 
 
-
-#####################################################################################################
-#####################################################################################################
-#####################################################################################################
-
-
 # Requirements:
 
 1) See requiremnts.txt
@@ -41,19 +25,10 @@ Script that uses FastRCNN model to determine if a tile on a chess board is occup
 3) CPU-Only versions of PyTorch may still run this, but it has not been tested. Changes to requirements.txt may be necessary and the --device 'cpu' flag will need to be appended as a parameter when running inference.py.
 
 
-#####################################################################################################
-#####################################################################################################
-#####################################################################################################
 
+## Original code (excepting Board_Digitizer.py) is from sovit-123 on GitHub. 
 
-# Original code (excepting Board_Digitizer.py) is from sovit-123 on GitHub. 
+## See here for details:https://github.com/sovit-123/fasterrcnn-pytorch-training-pipeline
 
-# See here for details:https://github.com/sovit-123/fasterrcnn-pytorch-training-pipeline
+## Edits made to inference.py and requirements.txt to attain proper board evaluation.
 
-# Edits made to inference.py and requirements.txt to attain proper board evaluation.
-
-
-
-#####################################################################################################
-#####################################################################################################
-#####################################################################################################

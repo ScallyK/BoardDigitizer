@@ -26,6 +26,10 @@ Script that uses FastRCNN model to determine if a tile on a chess board is occup
 
 
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 ## Original code (excepting Board_Digitizer.py) is from sovit-123 on GitHub. 
 
 ## See here for details:https://github.com/sovit-123/fasterrcnn-pytorch-training-pipeline

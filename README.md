@@ -23,7 +23,7 @@ Script that uses FastRCNN model to determine if a tile on a chess board is occup
 
 - GPU and CPU Instances:
 
-    > Everything in requiremnts.txt
+    > Everything in requirements.txt
 
 - CPU Exclusive Requirements:
 

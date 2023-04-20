@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+outputs/training/pieceDetection/.DS_Store
+outputs/.DS_Store
+.DS_Store
+outputs/training/pieceDetection/300_Epochs/.gitattributes

@@ -38,7 +38,13 @@ Script that uses FastRCNN model to determine if a tile on a chess board is occup
 
 2) Code was developed/tested in AWS Sagemaker with a GPU instance. When running this code, ensure you have an NVIDIA GPU and >=PyTorch 1.8 as well as >= Python 3.6 
 
-3) CPU-Only versions of PyTorch may still run this, but it has not been tested. Changes to requirements.txt may be necessary and the --device 'cpu' flag will need to be appended as a parameter when running inference.py.
+3) AWS Sagemaker Image Parameters: 
+  
+    - Image: PyTorch 1.8 Python 3.6 GPU Optimized
+    - Kernel: Python 3
+    - Instance Type: ml.g4dn.large
+
+4) CPU-Only versions of PyTorch may still run this, but it has not been tested. Changes to requirements.txt may be necessary and the --device 'cpu' flag will need to be appended as a parameter when running inference.py.
 
 
 #####################################################################################################
